@@ -31,7 +31,7 @@ feed-forward neural networks using variations of the Dropout and Drop-Connect me
 visual appearance that distinguishes each type, using Machine Learning models and tools.
 
 
-![Bike Study](/assets/img/galaxias.jpeg)
+![Sample Image (5 channels)](/assets/img/galaxias.jpeg)
 
 
 ## Certifications
