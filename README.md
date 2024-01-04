@@ -28,7 +28,7 @@ feed-forward neural networks using variations of the Dropout and Drop-Connect me
 
 ![Standard Regularization Techniques](/assets/img/regularization.ppm)
 
-### •Deciphering the Universe: Appearance of Galaxies
+### •Morphological Classification of Galaxies
 
 [Link to repository](https://github.com/GamalerioJoaquin/GamalerioJoaquin.github.io/edit/main/README.md)
 
