@@ -24,6 +24,7 @@
 - In this thesis project to qualify for the Bachelor’s Degree in Physics, I explore the effect of non-random diluted
 feed-forward neural networks using variations of the Dropout and Drop-Connect methods.
 
+![Standard Regularization Techniques](/assets/img/regularization.ppm)
 
 ### •Deciphering the Universe: Appearance of Galaxies
 
