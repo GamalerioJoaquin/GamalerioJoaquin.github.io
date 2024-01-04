@@ -43,4 +43,4 @@ visual appearance that distinguishes each type, using Machine Learning models an
 - Diploma in Data Science, Machine Learning and its Applications
 - Crash Course on Python, Google (Coursera)
 - AWS Academy Graduate - AWS Academy Machine Learning Foundations
-- Introducción al Python Cientifico (FaMAF)
+- Introduction to Scientific Python (FaMAF)
