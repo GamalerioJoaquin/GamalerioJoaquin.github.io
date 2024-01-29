@@ -30,7 +30,7 @@ feed-forward neural networks using variations of the Dropout and Drop-Connect me
 
 ### •Morphological Classification of Galaxies
 
-[Link to repository]()
+[Link to repository](https://github.com/GamalerioJoaquin/Morphological-Classification-of-Galaxies)
 
 - In this project, we seek to classify the morphological type of galaxies through their physical properties and the
 visual appearance that distinguishes each type, using Machine Learning models and tools.
