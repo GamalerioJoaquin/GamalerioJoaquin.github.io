@@ -1,6 +1,9 @@
 # Data Scientist
 
 #### Technical Skills: Python, SQL, AWS, Spark, PyTorch, Keras, TensorFlow, Scikit-Learn, Pandas, Docker, SQLite, Git, GitHub, SQL.
+# Resume 
+
+I am an advanced undergraduate student pursuing a Bachelor's degree in Physics with a profound aspiration to become a Data Scientist. My passion lies in the realm of Machine Learning, Deep Learning, and related fields. Since childhood, I have harbored an insatiable curiosity for learning new things, a trait that persists to this day. I am genuinely excited about continuing to expand my knowledge in this domain and taking on new challenges.
 
 ## Education
 - Licenciatura en Física | National University of Cordoba (2017)								       		
