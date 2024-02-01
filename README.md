@@ -6,7 +6,7 @@
 - Licenciatura en Física | National University of Cordoba (2017)								       		
 - Data Science Diploma	  | National University of Cordoba (2023)
 
-  ![Certificado](/assets/img/Certificado.PNG)
+
 
              		
 ## Work Experience
@@ -44,6 +44,7 @@ visual appearance that distinguishes each type, using Machine Learning models an
 
 ## Certifications
 - Diploma in Data Science, Machine Learning and its Applications
+  ![Certificado](/assets/img/Certificado.PNG)
 - Crash Course on Python, Google (Coursera)
 - AWS Academy Graduate - AWS Academy Machine Learning Foundations
 - Introduction to Scientific Python (FaMAF)
