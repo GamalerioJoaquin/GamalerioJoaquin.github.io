@@ -5,7 +5,7 @@
 ## Education
 - Licenciatura en Física | National University of Cordoba (2017)								       		
 - Data Science Diploma	  | National University of Cordoba (2023)
-  ![certificado](/assets/img/certificado.png)
+  ![Certificado](/assets/img/Xertificado.PNG)
 
              		
 ## Work Experience
