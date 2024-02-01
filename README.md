@@ -44,6 +44,7 @@ visual appearance that distinguishes each type, using Machine Learning models an
 
 ## Certifications
 - Diploma in Data Science, Machine Learning and its Applications
+  [Link to Certificate](https://github.com/GamalerioJoaquin/GamalerioJoaquin.github.io/blob/main/assets/img/Certificado.PNG)
   ![Certificado](/assets/img/Certificado.PNG)
 - Crash Course on Python, Google (Coursera)
 - AWS Academy Graduate - AWS Academy Machine Learning Foundations
