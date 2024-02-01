@@ -1,6 +1,6 @@
 # Data Scientist
 
-#### Technical Skills: Python, SQL, AWS, PyTorch, Scikit-Learn, Pandas, Docker, Apache Spark, SQLite, Git, GitHub.
+#### Technical Skills: Python, SQL, AWS, Spark, PyTorch, Keras, TensorFlow, Scikit-Learn, Pandas, Docker, SQLite, Git, GitHub, SQL.
 
 ## Education
 - Licenciatura en Física | National University of Cordoba (2017)								       		
