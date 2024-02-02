@@ -7,7 +7,7 @@ I am an advanced undergraduate student pursuing a Bachelor's degree in Physics w
 
 ## Education
 - Licenciatura en Física  | National University of Cordoba (2017-present)								       		
-- Data Science Diploma	  | National University of Cordoba (2023)
+- Data Science Diploma	  | National University of Cordoba (2023-completed)
 
 
 
