@@ -6,9 +6,13 @@
 I am an advanced undergraduate student pursuing a Bachelor's degree in Physics with a profound aspiration to become a Data Scientist. My passion extends to Machine Learning, Deep Learning, and the diverse applications of Artificial Intelligence. Since childhood, I have harbored an insatiable curiosity for learning new things, a trait that persists to this day. I am genuinely excited about continuing to expand my knowledge in this domain and taking on new challenges.
 
 ## Education
- Licenciatura en Física|National University of Cordoba (2017)						
+
+ -Licenciatura en Física | National University of Cordoba 
+                         | (2017-present)		
+  
  
- Data Science Diploma|National University of Cordoba (2023)
+ -Data Science Diploma | National University of Cordoba 
+                       | (2023)
 
 
 
