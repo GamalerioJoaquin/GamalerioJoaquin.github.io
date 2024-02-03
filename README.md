@@ -31,6 +31,7 @@ I am an advanced undergraduate student pursuing a Bachelor's degree in Physics w
  _Degree thesis directed by Francisco A. Tamarit_
 
 [Link to repository available soon]
+[Check this preliminar work instead](https://github.com/GamalerioJoaquin/DropOut-Implementation-From-Scratch/tree/main)
 
 - In this thesis project to qualify for the Bachelor’s Degree in Physics, I explore the effect of non-random diluted
 feed-forward neural networks using variations of the Dropout and Drop-Connect methods.
