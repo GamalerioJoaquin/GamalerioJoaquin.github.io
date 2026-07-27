@@ -1,5 +1,20 @@
 title: Joaquin Ignacio Gamalerio
-logo: /assets/img/Foto.jpeg
-#description: text below image
-#show_downloads: true
-theme: jekyll-theme-minimal
+description: Applied AI and Computer Vision Engineer specializing in biometrics, face anti-spoofing, deep learning, and production software.
+url: "https://gamaleriojoaquin.github.io"
+baseurl: ""
+lang: en
+
+author:
+  name: Joaquin Ignacio Gamalerio
+  email: gamaleriojoaquin@gmail.com
+  location: Argentina
+
+social:
+  github: GamalerioJoaquin
+  linkedin: joaquin-ignacio-gamalerio
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
