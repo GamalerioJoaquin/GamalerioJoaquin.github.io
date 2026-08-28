@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Facial landmark map</title>
+  <desc id="desc">Stylized 68-point facial landmark grid for biometric analysis.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset=".55" stop-color="#0a1c2c"/>
+      <stop offset="1" stop-color="#101a35"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="48%" r="48%">
+      <stop offset="0" stop-color="#59e1d2" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#59e1d2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#8ba7ff" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="960" height="640" rx="28" fill="url(#bg)"/>
+  <rect width="960" height="640" rx="28" fill="url(#grid)"/>
+  <ellipse cx="505" cy="318" rx="280" ry="286" fill="url(#halo)"/>
+
+  <g fill="none" stroke="#8ba7ff" stroke-opacity=".34" stroke-width="2">
+    <path d="M355 170C385 105 445 76 506 76s121 29 151 94c24 53 28 144 8 232-18 80-83 154-159 178-76-24-141-98-159-178-20-88-16-179 8-232Z"/>
+    <path d="M365 234Q415 205 463 231M549 231Q597 205 647 234"/>
+    <path d="M383 271Q422 245 461 274Q421 295 383 271ZM551 274Q590 245 629 271Q591 295 551 274Z"/>
+    <path d="M506 235L492 352L506 366L520 352"/>
+    <path d="M438 424Q506 386 574 424Q506 481 438 424Z"/>
+    <path d="M455 422Q506 438 557 422"/>
+  </g>
+
+  <g stroke="#59e1d2" stroke-opacity=".42" stroke-width="1.5" fill="none">
+    <polyline points="354,179 344,218 340,260 343,304 352,348 366,390 387,431 413,468 442,503 474,531 506,548 538,531 570,503 599,468 625,431 646,390 660,348"/>
+    <polyline points="373,226 396,215 422,212 446,218 465,231"/>
+    <polyline points="547,231 566,218 590,212 616,215 639,226"/>
+    <polyline points="506,245 500,279 496,315 492,352 506,366 520,352"/>
+    <polyline points="383,271 401,258 422,255 443,261 461,274 443,284 422,287 401,282 383,271"/>
+    <polyline points="551,274 569,261 590,255 611,258 629,271 611,282 590,287 569,284 551,274"/>
+    <polyline points="438,424 461,408 484,402 506,406 528,402 551,408 574,424 551,447 528,458 506,461 484,458 461,447 438,424"/>
+  </g>
+
+  <g fill="#59e1d2" filter="url(#glow)">
+    <circle cx="354" cy="179" r="4"/><circle cx="344" cy="218" r="4"/><circle cx="340" cy="260" r="4"/><circle cx="343" cy="304" r="4"/><circle cx="352" cy="348" r="4"/><circle cx="366" cy="390" r="4"/><circle cx="387" cy="431" r="4"/><circle cx="413" cy="468" r="4"/><circle cx="442" cy="503" r="4"/><circle cx="474" cy="531" r="4"/><circle cx="506" cy="548" r="4"/><circle cx="538" cy="531" r="4"/><circle cx="570" cy="503" r="4"/><circle cx="599" cy="468" r="4"/><circle cx="625" cy="431" r="4"/><circle cx="646" cy="390" r="4"/><circle cx="660" cy="348" r="4"/>
+    <circle cx="373" cy="226" r="4"/><circle cx="396" cy="215" r="4"/><circle cx="422" cy="212" r="4"/><circle cx="446" cy="218" r="4"/><circle cx="465" cy="231" r="4"/>
+    <circle cx="547" cy="231" r="4"/><circle cx="566" cy="218" r="4"/><circle cx="590" cy="212" r="4"/><circle cx="616" cy="215" r="4"/><circle cx="639" cy="226" r="4"/>
+    <circle cx="506" cy="245" r="4"/><circle cx="500" cy="279" r="4"/><circle cx="496" cy="315" r="4"/><circle cx="492" cy="352" r="4"/><circle cx="506" cy="366" r="4"/><circle cx="520" cy="352" r="4"/>
+    <circle cx="383" cy="271" r="4"/><circle cx="401" cy="258" r="4"/><circle cx="422" cy="255" r="4"/><circle cx="443" cy="261" r="4"/><circle cx="461" cy="274" r="4"/><circle cx="443" cy="284" r="4"/><circle cx="422" cy="287" r="4"/><circle cx="401" cy="282" r="4"/>
+    <circle cx="551" cy="274" r="4"/><circle cx="569" cy="261" r="4"/><circle cx="590" cy="255" r="4"/><circle cx="611" cy="258" r="4"/><circle cx="629" cy="271" r="4"/><circle cx="611" cy="282" r="4"/><circle cx="590" cy="287" r="4"/><circle cx="569" cy="284" r="4"/>
+    <circle cx="438" cy="424" r="4"/><circle cx="461" cy="408" r="4"/><circle cx="484" cy="402" r="4"/><circle cx="506" cy="406" r="4"/><circle cx="528" cy="402" r="4"/><circle cx="551" cy="408" r="4"/><circle cx="574" cy="424" r="4"/><circle cx="551" cy="447" r="4"/><circle cx="528" cy="458" r="4"/><circle cx="506" cy="461" r="4"/><circle cx="484" cy="458" r="4"/><circle cx="461" cy="447" r="4"/>
+  </g>
+
+  <g fill="#dce6f2" font-family="Inter, Arial, sans-serif">
+    <text x="40" y="52" font-size="16" font-weight="700" letter-spacing="4">FACIAL LANDMARK MAP</text>
+    <text x="40" y="78" font-size="12" fill="#7f91aa" letter-spacing="2">68-POINT ALIGNMENT · BIOMETRIC ANALYSIS</text>
+    <text x="760" y="52" font-size="13" fill="#59e1d2" letter-spacing="2">LIVE</text>
+    <text x="760" y="78" font-size="12" fill="#7f91aa">confidence 98.7%</text>
+  </g>
+
+  <g fill="none" stroke="#dce6f2" stroke-width="3" stroke-linecap="square">
+    <path d="M28 122V92H58M902 92h30v30M28 518v30h30M902 548h30v-30"/>
+  </g>
+</svg>
