@@ -16,21 +16,23 @@
 }
 
 * { box-sizing: border-box; }
-html {
-  scroll-behavior: smooth;
+html, body, * {
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
+html {
+  scroll-behavior: smooth;
+}
 html::-webkit-scrollbar,
-body::-webkit-scrollbar {
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
   width: 0;
   height: 0;
-  display: none;
+  display: none !important;
+  background: transparent;
 }
 body {
   margin: 0;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
   color: var(--ink);
   background:
     radial-gradient(circle at 82% 8%, rgba(91, 92, 255, 0.14), transparent 25rem),
@@ -147,7 +149,6 @@ h1 span {
   line-height: 1.2;
   letter-spacing: -.025em;
 }
-.hero-lede { max-width: 690px; margin: 0; color: #bac8d9; font-size: clamp(1.15rem, 1.6vw, 1.38rem); line-height: 1.7; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 38px; }
 .button {
   display: inline-flex; align-items: center; justify-content: center; min-height: 50px;
@@ -301,7 +302,6 @@ h1 span {
   .language-switcher button { min-width: 48px; padding-block: 9px; }
   .hero { padding-top: 132px; padding-bottom: 80px; gap: 64px; }
   h1 { font-size: clamp(3.1rem, 15.5vw, 5.1rem); }
-  .hero-lede { font-size: 1.04rem; }
   .hero-actions { align-items: stretch; }
   .button { width: 100%; }
   .hero-panel { width: 100%; }

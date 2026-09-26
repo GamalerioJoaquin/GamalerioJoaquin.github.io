@@ -91,7 +91,6 @@
 
     setHtml('.eyebrow', '<span class="status-dot" aria-hidden="true"></span> Argentina · Disponible para oportunidades globales');
     setHtml('.hero-copy h1', '<span>Ingeniero de machine learning</span><small>Científico de datos · Visión por computadora</small>');
-    setText('.hero-lede', 'Licenciado en Física que desarrolla soluciones basadas en datos mediante machine learning y ciencia de datos, con experiencia en desarrollo de modelos, análisis de datos, visión por computadora, seguridad biométrica y software de producción.');
     setTexts('.hero-actions .button', ['Explorar trabajos seleccionados', 'Contactarme']);
     setAttribute('.hero-links', 'aria-label', 'Perfiles profesionales');
     setAttribute('.hero-panel', 'aria-label', 'Perfil profesional');
