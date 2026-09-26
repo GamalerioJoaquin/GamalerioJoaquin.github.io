@@ -98,7 +98,7 @@
     setAttribute('.portrait', 'alt', 'Retrato de Joaquin Ignacio Gamalerio');
     setAttribute('.proof-strip', 'aria-label', 'Aspectos destacados del perfil');
     setTexts('.proof-grid span', [
-      'Experiencia profesional en software',
+      'Experiencia profesional',
       'Formación científica con enfoque en investigación, datos y aprendizaje automático',
       'Inglés profesional · Español nativo'
     ]);
