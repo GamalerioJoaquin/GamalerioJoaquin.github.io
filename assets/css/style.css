@@ -106,7 +106,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   align-items: center;
   gap: 80px;
 }
-.eyebrow, .section-index, .card-label, .project-kicker, .signal-label {
+.eyebrow, .section-index, .card-label, .project-kicker {
   margin: 0 0 22px;
   color: var(--accent);
   font-size: .77rem;
@@ -169,17 +169,7 @@ h1 span {
   position: absolute; inset: 0; display: grid; place-items: center;
   color: rgba(255,255,255,.22); font-family: "Space Grotesk", sans-serif; font-size: 7rem; font-weight: 700;
 }
-.signal-card {
-  position: relative; z-index: 3; width: calc(100% - 42px); margin: -92px auto 0;
-  padding: 26px; border: 1px solid rgba(255,255,255,.15); border-radius: 22px;
-  background: rgba(9, 22, 37, .86); backdrop-filter: blur(20px); box-shadow: 0 24px 60px rgba(0,0,0,.34);
-}
-.signal-label { margin-bottom: 7px; color: var(--ink-muted); }
-.signal-value { margin: 0; font-family: "Space Grotesk", sans-serif; font-size: 1.22rem; font-weight: 700; }
-.signal-line { height: 4px; margin: 20px 0; overflow: hidden; border-radius: 99px; background: rgba(255,255,255,.08); }
-.signal-line span { display: block; width: 78%; height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); }
-.signal-tags { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 0; list-style: none; }
-.signal-tags li, .tag-list li, .pill {
+.tag-list li, .pill {
   padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px;
   color: #b6c5d8; background: rgba(255,255,255,.025); font-size: .76rem; font-weight: 600;
 }

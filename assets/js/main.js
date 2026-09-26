@@ -94,17 +94,12 @@
     setText('.hero-lede', 'Licenciado en Física que desarrolla soluciones basadas en datos mediante machine learning y ciencia de datos, con experiencia en desarrollo de modelos, análisis de datos, visión por computadora, seguridad biométrica y software de producción.');
     setTexts('.hero-actions .button', ['Explorar trabajos seleccionados', 'Contactarme']);
     setAttribute('.hero-links', 'aria-label', 'Perfiles profesionales');
-    setAttribute('.hero-panel', 'aria-label', 'Resumen del perfil profesional');
+    setAttribute('.hero-panel', 'aria-label', 'Perfil profesional');
     setAttribute('.portrait', 'alt', 'Retrato de Joaquin Ignacio Gamalerio');
-    setText('.signal-label', 'Enfoque actual');
-    setText('.signal-value', 'Inteligencia visual robusta');
-    setAttribute('.signal-tags', 'aria-label', 'Especialidades');
-    setTexts('.signal-tags li', ['Detección de suplantación facial', 'Seguridad biométrica', 'Aprendizaje profundo', 'IA aplicada']);
-
     setAttribute('.proof-strip', 'aria-label', 'Aspectos destacados del perfil');
     setTexts('.proof-grid span', [
       'Experiencia profesional en software',
-      'Investigación y experimentación con modelos',
+      'Formación científica con enfoque en investigación, datos y aprendizaje automático',
       'Inglés profesional · Español nativo'
     ]);
 
@@ -205,6 +200,7 @@
   });
 
   links.forEach((link) => link.addEventListener('click', closeMenu));
+
   languageButtons.forEach((button) => {
     button.addEventListener('click', () => applyLanguage(button.dataset.language || 'en'));
   });
