@@ -16,9 +16,21 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
 body {
   margin: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   color: var(--ink);
   background:
     radial-gradient(circle at 82% 8%, rgba(91, 92, 255, 0.14), transparent 25rem),
