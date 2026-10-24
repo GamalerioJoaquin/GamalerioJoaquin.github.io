@@ -133,7 +133,7 @@
     ]);
     setTexts('.project-copy > p:not(.project-kicker):not(.confidential-note)', [
       'Entrenamiento, evaluación y análisis de casos de fallo en sistemas biométricos diseñados para distinguir usuarios genuinos de ataques de presentación. El trabajo conectó la experimentación con aprendizaje profundo con restricciones reales de aplicación y flujos de validación.',
-      'Desarrollo un flujo reproducible para segmentar agua y analizar costas en imágenes PlanetScope, con controles de calidad de datos, objetivos de costa basados en distancia y una canalización de entrenamiento U-Net de cuatro canales.',
+      'Una herramienta experimental de segmentación para imágenes de embalses, lagos y ríos, diseñada para apoyar la estimación de niveles de agua y cotas de orilla, así como el monitoreo de inundaciones. Está construida sobre datos de RiverScope con una U-Net de cuatro canales en PyTorch y funciones de pérdida personalizadas para delimitar el agua y las costas.',
       'Diseñé y evalué una estrategia de regularización para redes neuronales feed-forward, implementada en PyTorch y comparada experimentalmente con Dropout y DropConnect sobre MNIST.',
       'Exploré la morfología de galaxias mediante propiedades físicas y apariencia visual, combinando preparación de datos, análisis exploratorio, reducción de dimensionalidad y clasificación con aprendizaje automático.'
     ]);
@@ -145,7 +145,7 @@
       element.setAttribute('aria-label', 'Tecnologías utilizadas');
     });
     setTexts('.project-card:nth-child(1) .tag-list li', ['PyTorch', 'Python', 'Visión por computadora', 'PAD', 'Validación de modelos']);
-    setTexts('.project-card:nth-child(2) .tag-list li', ['PyTorch', 'U-Net', 'PlanetScope', 'Control de calidad geoespacial']);
+    setTexts('.project-card:nth-child(2) .tag-list li', ['PyTorch', 'U-Net', 'RiverScope', 'Funciones de pérdida personalizadas']);
     setTexts('.project-card:nth-child(3) .tag-list li', ['PyTorch', 'Redes neuronales', 'Regularización', 'Evaluación comparativa']);
     setTexts('.project-card:nth-child(4) .tag-list li', ['Python', 'scikit-learn', 'pandas', 'Astronomía']);
     setText('.confidential-note', 'Algunos detalles de implementación son confidenciales.');
