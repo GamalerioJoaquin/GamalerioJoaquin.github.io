@@ -15,8 +15,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=shoreline-project-fix">
+  <script defer src="{{ '/assets/js/main.js' | relative_url }}?v=shoreline-project-fix"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -125,7 +125,7 @@
         </div>
 
         <div class="project-grid">
-          <article class="project-card project-card-featured">
+          <article class="project-card project-card-featured" data-project="face-antispoofing">
             <div class="project-number">01</div>
             <div class="project-copy">
               <p class="project-kicker">Professional · Computer Vision</p>
@@ -145,7 +145,7 @@
             </figure>
           </article>
 
-          <article class="project-card">
+          <article class="project-card" data-project="reservoir-shoreline">
             <div class="project-number">02</div>
             <div class="project-copy">
               <p class="project-kicker">Geospatial ML · Remote Sensing</p>
@@ -170,7 +170,7 @@
             </figure>
           </article>
 
-          <article class="project-card">
+          <article class="project-card" data-project="boostdropout">
             <div class="project-number">03</div>
             <div class="project-copy">
               <p class="project-kicker">Research thesis · Deep Learning</p>
@@ -189,7 +189,7 @@
             </figure>
           </article>
 
-          <article class="project-card">
+          <article class="project-card" data-project="galaxy-classification">
             <div class="project-number">04</div>
             <div class="project-copy">
               <p class="project-kicker">Scientific ML · Classification</p>

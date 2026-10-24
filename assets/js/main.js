@@ -60,6 +60,11 @@
     element.setAttribute(attribute, value);
   };
 
+  const projectSelector = (project, selector) => `[data-project="${project}"] ${selector}`;
+  const setProjectText = (project, selector, value) => setText(projectSelector(project, selector), value);
+  const setProjectHtml = (project, selector, value) => setHtml(projectSelector(project, selector), value);
+  const setProjectTexts = (project, selector, values) => setTexts(projectSelector(project, selector), values);
+
   const restoreEnglish = () => {
     originalElements.forEach((state, element) => {
       if (state.html !== null) element.innerHTML = state.html;
@@ -119,24 +124,18 @@
     setText('#projects .section-index', '02 / Proyectos seleccionados');
     setHtml('#projects .section-heading h2', 'Profundidad técnica,<br>hecha visible.');
     setText('#projects .section-note', 'Una selección que abarca biometría profesional, investigación en aprendizaje profundo y aprendizaje automático científico.');
-    setTexts('.project-kicker', [
-      'Profesional · Visión por computadora',
-      'ML geoespacial · Teledetección',
-      'Tesis de investigación · Aprendizaje profundo',
-      'ML científico · Clasificación'
-    ]);
-    setTexts('.project-copy h3', [
-      'Detección de suplantación facial y seguridad biométrica',
-      'Segmentación de costas de embalses',
-      'BoostDropout: Dilución estructurada en redes neuronales',
-      'Clasificación morfológica de galaxias'
-    ]);
-    setTexts('.project-copy > p:not(.project-kicker):not(.confidential-note)', [
-      'Entrenamiento, evaluación y análisis de casos de fallo en sistemas biométricos diseñados para distinguir usuarios genuinos de ataques de presentación. El trabajo conectó la experimentación con aprendizaje profundo con restricciones reales de aplicación y flujos de validación.',
-      'Una herramienta experimental de segmentación para imágenes de embalses, lagos y ríos, diseñada para apoyar la estimación de niveles de agua y cotas de orilla, así como el monitoreo de inundaciones. Está construida sobre datos de RiverScope con una U-Net de cuatro canales en PyTorch y funciones de pérdida personalizadas para delimitar el agua y las costas.',
-      'Diseñé y evalué una estrategia de regularización para redes neuronales feed-forward, implementada en PyTorch y comparada experimentalmente con Dropout y DropConnect sobre MNIST.',
-      'Exploré la morfología de galaxias mediante propiedades físicas y apariencia visual, combinando preparación de datos, análisis exploratorio, reducción de dimensionalidad y clasificación con aprendizaje automático.'
-    ]);
+    setProjectText('face-antispoofing', '.project-kicker', 'Profesional · Visión por computadora');
+    setProjectText('reservoir-shoreline', '.project-kicker', 'ML geoespacial · Teledetección');
+    setProjectText('boostdropout', '.project-kicker', 'Tesis de investigación · Aprendizaje profundo');
+    setProjectText('galaxy-classification', '.project-kicker', 'ML científico · Clasificación');
+    setProjectText('face-antispoofing', 'h3', 'Detección de suplantación facial y seguridad biométrica');
+    setProjectText('reservoir-shoreline', 'h3', 'Segmentación de costas de embalses');
+    setProjectText('boostdropout', 'h3', 'BoostDropout: Dilución estructurada en redes neuronales');
+    setProjectText('galaxy-classification', 'h3', 'Clasificación morfológica de galaxias');
+    setProjectText('face-antispoofing', '.project-copy > p:not(.project-kicker):not(.confidential-note)', 'Entrenamiento, evaluación y análisis de casos de fallo en sistemas biométricos diseñados para distinguir usuarios genuinos de ataques de presentación. El trabajo conectó la experimentación con aprendizaje profundo con restricciones reales de aplicación y flujos de validación.');
+    setProjectText('reservoir-shoreline', '.project-copy > p:not(.project-kicker):not(.confidential-note)', 'Una herramienta experimental de segmentación para imágenes de embalses, lagos y ríos, diseñada para apoyar la estimación de niveles de agua y cotas de orilla, así como el monitoreo de inundaciones. Está construida sobre datos de RiverScope con una U-Net de cuatro canales en PyTorch y funciones de pérdida personalizadas para delimitar el agua y las costas.');
+    setProjectText('boostdropout', '.project-copy > p:not(.project-kicker):not(.confidential-note)', 'Diseñé y evalué una estrategia de regularización para redes neuronales feed-forward, implementada en PyTorch y comparada experimentalmente con Dropout y DropConnect sobre MNIST.');
+    setProjectText('galaxy-classification', '.project-copy > p:not(.project-kicker):not(.confidential-note)', 'Exploré la morfología de galaxias mediante propiedades físicas y apariencia visual, combinando preparación de datos, análisis exploratorio, reducción de dimensionalidad y clasificación con aprendizaje automático.');
     document.querySelectorAll('.tag-list').forEach((element) => {
       const state = remember(element);
       if (!state.attributes.has('aria-label')) {
@@ -144,14 +143,14 @@
       }
       element.setAttribute('aria-label', 'Tecnologías utilizadas');
     });
-    setTexts('.project-card:nth-child(1) .tag-list li', ['PyTorch', 'Python', 'Visión por computadora', 'PAD', 'Validación de modelos']);
-    setTexts('.project-card:nth-child(2) .tag-list li', ['PyTorch', 'U-Net', 'RiverScope', 'Funciones de pérdida personalizadas']);
-    setTexts('.project-card:nth-child(3) .tag-list li', ['PyTorch', 'Redes neuronales', 'Regularización', 'Evaluación comparativa']);
-    setTexts('.project-card:nth-child(4) .tag-list li', ['Python', 'scikit-learn', 'pandas', 'Astronomía']);
+    setProjectTexts('face-antispoofing', '.tag-list li', ['PyTorch', 'Python', 'Visión por computadora', 'PAD', 'Validación de modelos']);
+    setProjectTexts('reservoir-shoreline', '.tag-list li', ['PyTorch', 'U-Net', 'RiverScope', 'Funciones de pérdida personalizadas']);
+    setProjectTexts('boostdropout', '.tag-list li', ['PyTorch', 'Redes neuronales', 'Regularización', 'Evaluación comparativa']);
+    setProjectTexts('galaxy-classification', '.tag-list li', ['Python', 'scikit-learn', 'pandas', 'Astronomía']);
     setText('.confidential-note', 'Algunos detalles de implementación son confidenciales.');
-    setHtml('.project-card:nth-child(2) .text-link', 'Ver repositorio <span aria-hidden="true">↗</span>');
-    setHtml('.project-card:nth-child(3) .text-link', 'Ver implementación relacionada <span aria-hidden="true">↗</span>');
-    setHtml('.project-card:nth-child(4) .text-link', 'Ver repositorio <span aria-hidden="true">↗</span>');
+    setProjectHtml('reservoir-shoreline', '.text-link', 'Ver repositorio <span aria-hidden="true">↗</span>');
+    setProjectHtml('boostdropout', '.text-link', 'Ver implementación relacionada <span aria-hidden="true">↗</span>');
+    setProjectHtml('galaxy-classification', '.text-link', 'Ver repositorio <span aria-hidden="true">↗</span>');
     setAttribute('.visual-boostdropout img', 'alt', 'Diagrama de regularización de una red neuronal con BoostDropout');
     setAttribute('.visual-galaxy img', 'alt', 'Visualización multicanal de una galaxia utilizada para clasificación morfológica');
     setAttribute('.visual-biometric img', 'alt', 'Grilla de landmarks faciales utilizada para análisis biométrico');
