@@ -148,6 +148,31 @@
           <article class="project-card">
             <div class="project-number">02</div>
             <div class="project-copy">
+              <p class="project-kicker">Geospatial ML · Remote Sensing</p>
+              <h3>Reservoir Shoreline Segmentation</h3>
+              <p>
+                An experimental segmentation tool for reservoir, lake, and river imagery, designed
+                to support water-level and shoreline-elevation estimation as well as flood monitoring.
+                It is built on RiverScope data with a four-channel U-Net in PyTorch and custom loss
+                functions for water and shoreline delineation.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>PyTorch</li><li>U-Net</li><li>RiverScope</li><li>Custom Losses</li>
+              </ul>
+              <a class="text-link" href="https://github.com/GamalerioJoaquin/reservoir-shoreline-segmentation/tree/main" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+            </div>
+            <figure class="project-visual project-image visual-shoreline">
+              <video controls muted autoplay loop playsinline preload="metadata" poster="{{ '/assets/img/shoreline-prediction-2fc339ca5c2b-blue.png' | relative_url }}" aria-label="Animated predicted shoreline over a reservoir image">
+                <source src="{{ '/assets/img/shoreline-prediction-2fc339ca5c2b-blue.mp4' | relative_url }}" type="video/mp4">
+                Your browser does not support the shoreline prediction animation.
+              </video>
+              <figcaption class="sr-only">Animated satellite image showing a predicted reservoir shoreline with water reflections.</figcaption>
+            </figure>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <div class="project-copy">
               <p class="project-kicker">Research thesis · Deep Learning</p>
               <h3>BoostDropout: Structured Dilution in Neural Networks</h3>
               <p>
@@ -165,7 +190,7 @@
           </article>
 
           <article class="project-card">
-            <div class="project-number">03</div>
+            <div class="project-number">04</div>
             <div class="project-copy">
               <p class="project-kicker">Scientific ML · Classification</p>
               <h3>Morphological Classification of Galaxies</h3>

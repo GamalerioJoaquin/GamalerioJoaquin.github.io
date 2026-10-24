@@ -245,6 +245,10 @@ h1 span {
   width: 100%; height: 100%; min-height: 320px; object-fit: contain;
   background: #f2f5f8;
 }
+.project-image video {
+  width: 100%; height: 100%; min-height: 320px; object-fit: cover;
+  background: #081525;
+}
 .project-image.visual-biometric { background: #081525; }
 .visual-biometric img { padding: 0; object-fit: contain; background: #081525; }
 .visual-boostdropout img { padding: 14px; }
