@@ -253,6 +253,10 @@ h1 span {
 .visual-biometric img { padding: 0; object-fit: contain; background: #081525; }
 .visual-boostdropout img { padding: 14px; }
 .visual-galaxy img { object-position: center; }
+.project-image.visual-shoreline { min-height: 0; aspect-ratio: 1; background: #081525; }
+.visual-shoreline video {
+  display: block; height: auto; min-height: 0; object-fit: contain;
+}
 
 .background-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 24px; }
 .background-card, .teaching-note { padding: 40px; border: 1px solid var(--line); border-radius: var(--radius-lg); background: rgba(255,255,255,.025); }
